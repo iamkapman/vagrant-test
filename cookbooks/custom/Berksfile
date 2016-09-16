@@ -1,0 +1,8 @@
+source "https://supermarket.chef.io"
+
+metadata
+
+cookbook 'apt', '~> 4.0.2'
+cookbook 'build-essential', '~> 6.0.5'
+cookbook 'logrotate', '~> 2.1.0'
+cookbook 'openssl', '~> 6.0.0'
